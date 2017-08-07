@@ -1,0 +1,323 @@
+.up{
+	background:#ADADAD;
+	height:250px;
+	width:99%;
+    padding: 0px;
+	}
+#picture{
+	position:relative;
+	background:#7A7474;
+	width:20%;
+	float:left;
+    margin-left: 2.5%;
+	height:220px;
+
+	  
+	
+	}
+#picture img {
+   position:relative;
+   top:10px;
+   left:20%;
+   height:50%;
+   width:50%;
+   max-width:70%;
+   max-height:90%;
+   margin: 5px;
+   border-radius:50%;
+   
+	}
+.desc {
+    text-align: center;
+    font-weight: normal;
+	position:relative;
+	bottom:5%;
+    width: 100%; 
+	overflow:hidden;
+	text-overflow:hidden;   
+}
+
+#myfont{
+	font-family:'B Nazanin';
+	position:relative;
+	padding:0px;
+	margin:0px;
+	font-size:12px;
+	color:#F0E6E6;
+	text-overflow:clip;
+		
+	}
+#coverPhoto{
+	height:220px;
+	float:right;
+	width:77.5%;
+	}
+	
+	#coverPhoto img{
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:100%;
+
+	}
+	
+	
+	
+	
+	
+		.edit{
+			content:url:"";
+			top:88%;
+			left:5%;
+			color:#3D55E0;
+			font-size:11px;
+			overflow:auto;
+			display: block;
+			}
+			
+		.linkedit{
+			position:relative;
+			top:5%;
+			left:5%;
+			color:#3D55E0;
+			font-size:11px;		
+			}
+		.contact_num{
+			float:right;
+			font-weight:lighter;
+			color:#575050;
+			margin-right:1%;
+			margin-left:1%;
+			}
+				
+			
+	.contact_img{
+		float:left;
+		max-width:40px;
+		max-height:40px;
+		margin-left:0.5%;
+		margin-right:0.5%;
+		margin-bottom:2%;
+		}
+		
+		
+		#inUrCircle{
+	    font-size: small;
+    	font-weight: bold;
+		margin:1%;	
+		}
+	
+
+		
+		.map{
+			width:90%;
+			padding:0px;
+			margin:0px;
+			
+			}
+			
+			
+			
+			.work{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		text-overflow:auto;
+		overflow:hidden;
+
+	
+		}
+		.workcontainer {
+			border-radius: 25px;
+			background: #5CECE5;
+			margin-top:4%;
+			padding-top:3%;
+			overflow: auto;
+		}
+	
+			
+			
+			
+		
+		
+	
+		
+		
+		.education{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		overflow:hidden;
+
+			
+			}
+		.educontainer{
+		border-radius:20px;
+		background:#F0A942;
+            margin-top:4%;
+            padding-top: 3%;
+			}
+			
+		.links{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		text-overflow:ellipsis;
+		overflow:hidden;
+			
+			}
+		.linkscontainer {
+            border-radius: 20px;
+            background: #61E896;
+            overflow: auto;
+            margin-top:4%;
+            padding-top: 3%;
+        }
+		.BasicInformation
+		{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		overflow:hidden;
+				}
+				
+	 .Basiccontainer
+	 {
+		border-radius:20px;
+		background:#EBDF77;
+		overflow:auto;
+		 margin-top:4%;
+		 padding-top: 3%;
+	 }
+			
+
+	
+	.Cinfo{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		overflow:hidden;
+		}
+		
+		.cinfoContainer{
+			
+		border-radius:20px;
+		background:#1A4BE8;
+		overflow:auto;
+            margin-top:4%;
+            padding-top: 3%;
+			}
+	
+	
+	.pic1{
+		overflow:hidden;
+		min-width:20%;
+		
+		}
+
+.base{
+	/*border:dashed solid 5px ;*/
+	position:absolute;
+	padding:3%;
+	left: 7%;
+	overflow:hidden;
+    max-width: 80%;
+}
+		
+		
+		.clm {
+
+     margin:3%;
+     float:left;
+	 
+     width:29%;
+     margin-right:0px;     
+}
+
+
+
+	.story{
+		border-radius:20px;
+		text-overflow:auto;
+		background:#F8F5F5;
+		padding:2%;
+		margin-bottom:2%;
+		overflow:hidden;
+		}
+		
+		.storycontainer{
+
+			margin-top:4%;
+			padding-top: 3%;
+			border-radius:20px;
+			background:#E12226;
+
+		
+			}
+				
+				
+		.places{
+		border-radius:20px;
+		background:#F8F5F5;
+		padding:2%;
+		overflow:hidden;
+		
+		}
+		
+		.plcontainer
+		{
+			border-radius:20px;
+			background:#E74CCE;
+			margin-top:4%;
+			padding-top: 3%;
+			width:100%;
+
+		}	
+		
+		.people
+		{
+			overflow:hidden;
+			border-radius:20px;
+			background:#F8F5F5;
+			padding:2%;
+			min-width:15%;
+
+		}
+		
+		.pcontainer
+		{
+			margin-top:4%;
+			padding-top: 3%;
+			width:100%;
+			border-radius:20px;
+			background:#481AE5;
+
+		}
+		
+		
+		#map{
+			border:dashed solid 5px ;
+		
+		}
+		#map-canvas{
+			height: 150px;
+		}
+
+
+
+.heading
+{
+
+	border:none;
+	background-color: transparent;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+}
+
+
+.p_submit{
+
+	display: none;
+}
+

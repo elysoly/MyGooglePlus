@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.nav-container{ background:hsla(209,28%,57%,1.00) ; position:fixed ; top:0; width:100% ; border-radius:20px; z-index:+1; height:40px;}
+    .f-nav{  position: fixed; left:0 ; top: 0; width: 100%;} /* this make our menu fixed top */
+    
+.nav { height: 32px;  }
+    .nav ul { list-style: none; }
+    .nav ul li{float:left; padding:0.5%; }
+    .nav ul li:first-child{ padding-left: 40%;}
+    .nav ul li a { }
+    .nav ul li a:hover{ text-decoration: underline;}
+	
+body{
+	background:#B1ADAD;
+	
+	}
+	
+
+		
+		
+		
+	#heading{
+	margin::0px;
+	padding:0px;
+	font-weight:bold;
+	font-size:12px;
+	}
+		
+		
+	.text{
+	position:relative;
+	top:-10px;
+	color:#878383;
+	font-weight:lighter;
+	font-size:12px;
+	}
+					
+	.answer{
+
+	color:#786F6F;
+	padding-left:10%;
+	}
+	
+	
+	#topic{
+	font-family: 'nazanin';	
+	font-size:16px;
+    font-weight:lighter;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}		
+	
+	
+	
+	.ws{
+		
+
+ 
+    white-space: nowrap; 
+    width: 90%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+ 
+
+	}
+	
+	
+	
+
+@font-face {
+ font-family: 'nazanin';
+ src: url('http://elnaz-share.persiangig.com/document/nazanin.otf');
+
+}
+	

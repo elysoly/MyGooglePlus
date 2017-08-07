@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<head>
+    <title>Home-Admin</title>
+    <link rel="stylesheet" href="../stylesheets/global.css" />
+    <link rel="stylesheet" href="../stylesheets/Home.css" />
+    <div class="nav-container">
+          
+        <div class="nav">
+        
+            <input class="search-bar">  </input>
+         
+          <img  class='search-pic' onclick=search() src='../images/Home Pic/Search.jpg' />
+         
+            <ul class='bar'>
+                <li><a onclick=notloading(10) style='text-decoration:underline'>Home</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+                <li><a href="View more.html">View more</a></li>
+
+            </ul>
+       
+            <button type="button" class="logout-btn" onclick="LogOut()" >logout</button>
+            <button type="button" class="logout-btn" onclick="ControlPannel()" >Control Pannel</button>
+
+            <select name="Order" class="logout-btn Order">
+                <option value="sortDate">Date</option>
+                <option value="sortWriter">Writer</option>
+                <option value="sortHot">Hot</option>
+            </select>
+
+             </div>
+
+        </div>
+    </div>
+
+
+ </head> 
+<body>
+
+   <div class="base">
+     
+  
+
+
+
+	
+
+  </div>
+  
+   <script type="text/javascript" src="../JS/Admin.js"> </script>
+</body>
+
+</html>

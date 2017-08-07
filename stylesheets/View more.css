@@ -1,0 +1,129 @@
+.friend_img
+{
+	width:100%;
+	height:120px;
+
+
+}
+#upside{
+	background:#ADADAD;
+	height:20px;
+	margin-top: 5%;
+	margin-bottom:5%;
+	margin-left: 2%;
+	widows:inherit;
+
+}
+
+.friend{
+background:#FDFDFD;
+float:left;
+min-height:300px;
+max-height: 300px;
+margin:1%;
+
+width: 18%;
+
+
+}
+
+.pad{
+margin:2%;
+padding-left: 8%;
+padding-right: 8%;
+
+}
+.btn{
+position:relative;
+width:100%;
+box-shadow:#6E6465;
+margin-top:4%;
+height:25px;
+background:#F3ECED;
+border-radius:5px;
+
+}
+
+.incomm{
+color:#726E6E;
+font-size:11px;
+float:left;
+margin-left:4%;
+}
+
+.fri{
+text-align:left;
+font-size:12px;
+float:left;
+color:#AFA7A7;
+text-overflow:clip;
+
+}
+.fri b { color: #000; }	
+#name
+{
+font-size:14px;
+font-weight:bold;
+text-align:left;
+}
+
+
+.fimg{
+margin:0px;
+padding:0px;
+}
+
+
+.row{
+
+		width:97%;
+		margin: 1.5%;
+	margin-bottom: 5%;
+
+
+}
+
+.base{
+
+	margin: 6%;
+
+	min-width: 84%;
+
+}
+
+
+.vmpic
+{
+
+
+	padding: 11%;
+	padding-bottom: 0px;
+	//right:11%;
+	width: 78%;
+	min-height: 150px;
+	max-height: 150px;
+
+}
+
+
+
+.vmpiccontainer
+{
+	min-width: 90%;
+
+}
+		
+
+.logout-btn
+{
+
+float: right;
+margin-right: 2%;
+
+border-radius: 2%;
+background-color: #f4f4f3;
+
+}
+
+
+		

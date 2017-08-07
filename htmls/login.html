@@ -1,0 +1,88 @@
+ <head>
+  <link rel="stylesheet" href="../stylesheets/Login.css" />
+ <title>Login</title>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ </head>
+ 
+ <body>
+ 
+    
+<div class="wrapper">
+  <div class="google-header-bar  centered">
+     <div class="header content clearfix">
+        <img alt="Google" class="logo" src="//ssl.gstatic.com/accounts/ui/logo_2x.png">
+     </div>
+  </div>
+  <div class="main content clearfix">
+     <div class="banner">
+        <h1> One account. All of Google. </h1>
+        <h2> Sign in to continue to Gmail </h2>
+  
+     </div>
+
+    <div id="rsi-card" class="card signin-card">
+  
+
+  <form novalidate method="post" action="../index.php" id="gaia_loginform" class="myform">
+
+  
+<label class="hidden-label" for="Email">Username</label> 
+ <input id="Email" name="name" type="text" class="email-input hidden"
+         placeholder="Username">
+<label class="usval" for="Email"></label> 
+
+<label class="hidden-label" for="Passwd">Password</label>
+<input id="Passwd" name="Passwd" type="password"  placeholder="Password"        class="">
+
+<input id="signIn" name="signIn" class="rc-button rc-button-submit" type="submit" value="Sign in">
+<input id="signUp" name="signUp" class="rc-button rc-button-submit" type="submit" value="Sign up">
+
+
+  <div class="remember">
+<input class="remember" name="rememberme" type="checkbox" value="yes" checked="checked">  Stay signed in
+  </div>
+
+  </form> 
+
+</div>
+  </div>
+
+
+
+
+</div>
+
+  <script>
+
+  $(document).ready( function ()
+    {
+      //alert("ready");
+
+      $.post("../index.php", { login: "user"} , function(data)
+            {  
+              console.log(data);
+              if(data==1){
+
+                var url="../htmls/Home.html?"+ getCookie("username");
+               // alert(url);
+                setTimeout(function(){ window.location = url; }, 1000);
+              }
+               
+            });
+    }
+  );
+
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return "";
+}
+  </script>
+
+</body>
